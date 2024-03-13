@@ -17,72 +17,84 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
     <title>EXEMPLO</title>
   </head>
   <body>
-    
     <div class="container">
        
       <header class="cacecalho">
           <h1>Minha Página</h1>
-             <nav>
+            <nav class="menu">
               <!-- ul= unordered list e dentro dela somente podemos adicionar elementos li = list item.-->
-            </section>
-
-            <footer class="rodape">
-            <nav>
                 <ul>
                   <li><a href="./paginas/help.html">help</a></li>
-                  <li><a href="./contact.html">contact</a></li>
                   <li><a href="./about.html">about</a></li>
+                  <li><a href="./contact.html">contact</a></li>
                 </ul>
-            </nav>
-           <p>
-      </nav>
+        </nav>
       </header>        
  
       <hr />
 
-      <section>
-       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima fugiat nam eligendi quidem! Sed quas provident delectus recusandae omnis ut hic assumenda exercitationem similique, in, tempore dicta vel nulla.
-       </p>
-       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore dicta cupiditate iure iusto ratione vitae excepturi expedita, natus atque repellendus. Eius aperiam blanditiis nemo repellendus ipsum iste qui adipisci.
-       </p>
-       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos error doloribus culpa cupiditate, minima commodi rerum quaerat et cumque, nam ullam molestias sunt laboriosam delectus ipsum, quisquam laudantium consectetur voluptatibus.
-       </p>
-       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veniam,
-          itaque at earum quis eaque aut ipsam obcaecati maxime corporis
-          reprehenderit sapiente voluptas voluptatum distinctio tempora cum,
-          nesciunt, ducimus perferendis atque vel ad. Laudantium, perspiciatis
-          eligendi deserunt minus nemo debitis asperiores rem, sequi eius labore
-          alias molestiae iure molestias sed reprehenderit tempore facere. Quia
-          facilis blanditiis ullam iusto dignissimos harum fugit praesentium
-          maiores nemo! Enim eius quae dolores perspiciatis fugiat similique
-          facilis quod, excepturi odio, voluptate consequatur quasi quia at.
-          Quia, quis vero! Ipsum dolor impedit mollitia aspernatur ipsa
-          voluptatem deleniti, aperiam laudantium in! Sint a voluptatem
-          dignissimos esse eos!
-       </p>
+      <section class="conteudo"
+         <div>
+          <h2>help</h2>
+          <p>Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam natus molestias ad ab quaerat sunt ea repellendus quos recusandae, quibusdam eaque voluptatum totam facilis impedit quod unde aperiam? Accusantium eius molestias rem, error labore consectetur? Qui officia optio culpa rerum soluta fuga ratione, facere suscipit eveniet odit voluptatum, velit dolorem reiciendis neque amet fugit molestiae? Ipsa, esse? Nesciunt exercitationem praesentium vel aspernatur voluptatem quidem ratione facilis nisi similique, libero, incidunt laborum, at aperiam cupiditate ipsam voluptates iste molestiae! Aliquid distinctio illo corporis veritatis numquam similique aliquam maiores facere a ullam, unde aspernatur officia vero tempore nulla eum temporibus, aut eos?
+          </p>
+          <a href="./paginas/help.html">Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+         <p>
+          About - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae odio quam nam tenetur error quaerat, pariatur praesentium quod iste soluta incidunt dolores eius illum dignissimos repudiandae reprehenderit sequi vitae. Neque.
+         </p>
+         <a href="./paginas/about.html">Mais...</a>
+        </div>
       
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+          <fieldset>
+            <legend>Customer Data</legend>
+            <div>
+              <label for="">Nome:</label>   
+              <input 
+              type="text" 
+              name="txtNm" 
+              id="idNm" 
+              placeholder="Digite seu nome"
+              />
+            </div>
+            <div>
+              <label for="idEmail">Email:</label>   
+              <input 
+              type="email" 
+              name="txtEmail" 
+              id="idEmail" 
+              placeholder="Digite seu email"
+              />
+            </div>
+            <div>
+              <button type="button">Send</button>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+    
+        
+        <nav> 
 
       <ul>
         <li>
           <a href="https://www2.fiap.com.br/" target="_blank"> FIAP </a>
         </li>
-        
-        <li>
+         <li>
           <a href="https://www.google.com.br/" target="_blank"> Google </a>
         </li>
-        
-        <li>
+          <li>
           <a href="https://github.com/" target="_blank"> Github</a>
         </li>
       </ul>
-      Todos os direitos reservados <small>2024 - &copy;</small></p>
+      </nav>
+      <p>Todos os direitos reservados <small>2024 - &copy;</small></p>
      </footer>
-    
-    
     </div>
   </body>
 </html>
