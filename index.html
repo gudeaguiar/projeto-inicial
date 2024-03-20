@@ -7,7 +7,7 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
 
 <!-- O HTML é a tag raiz da estrutura html, todo o conteúdo deve ser criado dentro dele.
 -->
-<html>
+<html lang="pt-br">
   <!--
    The <head> element contains meta information about the HTML page
    -->
@@ -15,20 +15,23 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EXEMPLO</title>
-  </head>
+
+    <link rel="stylesheet" href="./css/estilo.css">
+  
+</head>
+    
   <body>
-    <div class="container">
-       
+    <div id="container">       
       <header class="cacecalho">
           <h1>Minha Página</h1>
-            <nav class="menu">
+          <nav class="menu">
               <!-- ul= unordered list e dentro dela somente podemos adicionar elementos li = list item.-->
-                <ul>
-                  <li><a href="./paginas/help.html">help</a></li>
-                  <li><a href="./about.html">about</a></li>
-                  <li><a href="#contact">contact</a></li>
-                  <li><a href="#meu-texto">TEXTO</a></li>
-                </ul>
+            <ul>
+                <li><a href="./paginas/help.html">help</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#meu-texto">TEXTO</a></li>
+            </ul>
         </nav>
       </header>        
  
@@ -36,13 +39,13 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
 
       <section class="conteudo"
          <div>
-          <h2>help</h2>
+          <h2 class="tit-sec">help</h2>
           <p>Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam natus molestias ad ab quaerat sunt ea repellendus quos recusandae, quibusdam eaque voluptatum totam facilis impedit quod unde aperiam? Accusantium eius molestias rem, error labore consectetur? Qui officia optio culpa rerum soluta fuga ratione, facere suscipit eveniet odit voluptatum, velit dolorem reiciendis neque amet fugit molestiae? Ipsa, esse? Nesciunt exercitationem praesentium vel aspernatur voluptatem quidem ratione facilis nisi similique, libero, incidunt laborum, at aperiam cupiditate ipsam voluptates iste molestiae! Aliquid distinctio illo corporis veritatis numquam similique aliquam maiores facere a ullam, unde aspernatur officia vero tempore nulla eum temporibus, aut eos?
           </p>
           <a href="./paginas/help.html">Mais...</a>
         </div>
         <div>
-          <h2>ABOUT</h2>
+          <h2 class="tit-sec">ABOUT</h2>
          <p>
           About - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias vel distinctio repudiandae pariatur fugiat maiores exercitationem ipsa, magni aspernatur, perspiciatis aperiam veritatis quod nisi nulla impedit dolores sunt voluptate natus blanditiis velit, quas corrupti accusamus! Doloremque beatae incidunt nemo rerum sint earum nostrum, eos aut velit sequi vitae veritatis rem qui hic dolor dolorum <span id="meu-texto"labore, provident quidem nisi!</span> Incidunt nihil omnis corporis numquam non quisquam consequatur illo, accusamus architecto sit nulla? Illo molestiae minus expedita nisi obcaecati aliquid fugit modi consectetur quia eaque voluptate rem, quis quasi provident delectus assumenda omnis repellendus id neque error, earum magni. Eos cupiditate accusamus omnis repudiandae eum beatae porro libero recusandae, non corrupti maxime officiis corporis perspiciatis consequuntur aliquam esse maiores ipsam qui.
         
@@ -53,26 +56,26 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
         </div>
       
         <div id="contact">
-          <h2>CONTACT</h2>
+          <h2 class="tit-sec">CONTACT</h2>
           <form>
-          <fieldset>
-            <legend>Customer Data</legend>
-            <div>
+           <fieldset>
+             <legend>Customer Data</legend>
+             <div>
               <label for="idNm">Nome:</label>   
               <input 
-              type="text" 
-              name="txtNm" 
-              id="idNm" 
-              placeholder="Digite seu nome"
-              />
+               type="text" 
+               name="txtNm" 
+               id="idNm" 
+               placeholder="Digite seu nome"
+             />
             </div>
             <div>
               <label for="idEmail">Email:</label>   
               <input 
-              type="email" 
-              name="txtEmail" 
-              id="idEmail" 
-              placeholder="Digite seu email"
+               type="email" 
+               name="txtEmail" 
+               id="idEmail" 
+               placeholder="Digite seu email"
               />
             </div>
             <div>
@@ -80,9 +83,9 @@ The <!DOCTYPE html> declaration defines that this document is an HTML5 document
             </div>
           </fieldset>
           </form>
+                  
         </div>
-    
-        
+
         <nav> 
 
       <ul>
