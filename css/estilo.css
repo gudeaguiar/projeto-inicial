@@ -42,16 +42,37 @@
 
 /* input[type="text"] {color: red;} - Este seletor estiliza todos os inputs que possuem o atributo "type" com o valor "text". */
 
-/* Exemplo de reset de estilos */
+/* Exemplo de reset de estilos 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* Exemplo de reset de estilos */
-
+/*
 #container{
     background-color: #825dd8;
     width: 75%;
     margin: 0 auto;
+} */
+
+#container{
+    background-color: rgb(229, 220, 252);
+}
+
+.cabecalho{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-image: url("../img/img-01-banner-1280x568.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu ul li{
+    display: inline;
+    margin-right: 10px;
+    background-color: aliceblue;
 }
