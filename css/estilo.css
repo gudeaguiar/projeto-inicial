@@ -73,6 +73,13 @@
     padding: 20px;
 }
 
+p
+{
+    color: green;
+}
+
+
+
 .cabecalho
 {
     background-color: rgb(27, 112, 240);
