@@ -56,18 +56,25 @@
     margin: 0 auto;
 } */
 
-.section {
+.section 
+{
     line-height: 1.5;
 }
 
+.form  
+{
+    border: 1px solid grey;
+    padding: 10px;
+}
 
 
-
-.container{
+.container
+{
     padding: 20px;
 }
 
-.cabecalho{
+.cabecalho
+{
     background-color: rgb(27, 112, 240);
     color: white;
     padding: 10px;
@@ -78,14 +85,16 @@
     background-repeat: no-repeat;
 }
 
-.menu ul li{
+.menu ul li
+{
     display: inline;
     margin-right: 10px;
     background-color: aliceblue;
     font-weight: bold;
 }
 
-.Titulos{
+.Titulos
+{
     font-family: serif
 }
 
