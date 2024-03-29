@@ -85,6 +85,8 @@ p
 }
 
 
+
+
 .cabecalho
 {
     background-color: rgb(27, 112, 240);
@@ -108,5 +110,9 @@ p
 .Titulos
 {
     font-family: serif
+}
+
+.rodape{
+    border-top: 2px solid red;
 }
 
